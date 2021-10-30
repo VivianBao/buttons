@@ -1,0 +1,125 @@
+/* Your button CSS file */
+a {
+  display: inline-block;
+}
+
+.btn-medium {
+  background-color: white;
+  color: rgb(214, 213, 213);
+  border-color:rgb(214, 213, 213);
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.btn-medium:hover {
+  color: rgb(139, 139, 139);
+  border-color:rgb(139, 139, 139);
+}
+
+.btn-treehouse {
+  background-color: #6ad58c;
+  color: white;
+  transition: 1s;
+  font-weight: 10px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.btn-treehouse:hover {
+  background-color: #2ab957;
+}
+
+.btn-yours {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4621e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn-yours span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-yours span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.btn-yours:hover span {
+  padding-right: 15px;
+}
+
+.btn-yours:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 5px;
+
+}
+
+.btn-yours-two {
+  display: inline-block;
+  position: absolute;
+  top: -26.8px;
+  border-radius: 4px;
+  background-color: #f4c21e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.btn-yours-two:hover {
+  opacity: 0;
+  transition: 1s;
+}
+
+.btn-yours-two-img {
+  width: 100px;
+  height: 34px;
+  margin: 5px;
+  border-radius: 4px;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  top: -26.8px;
+}
+
+/* .btn-yours-two-img img{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2;
+  width: 80px;
+  height: 20px;
+} */
